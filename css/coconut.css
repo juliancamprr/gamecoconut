@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'boba';
+    src: url('/fonts/Boba\ Cups.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'boba';
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin-top: 0.5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default
+}
